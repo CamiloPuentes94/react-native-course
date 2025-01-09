@@ -5,10 +5,11 @@
 // } from "./typescript"
 
 import {
+  FormsPage,
   // Counter, 
   // CounterWithHook,
   // LoginPage,
-  UsersPage
+  // UsersPage
 } from "./components"
 
 
@@ -24,7 +25,8 @@ function App() {
 
       {/* <CounterWithHook /> */}
       {/* <LoginPage /> */}
-      <UsersPage />
+      {/* <UsersPage /> */}
+      <FormsPage />
     </main>
   )
 }
